@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+      <meta charset="UTF-8">
+
+      <meta name="viewpont" content="width=device-width, initial-scale=1.0">
+
+      <meta http-equiv="X-UA- Compatible" content="ie=edge">
+
+      <title> Harry Fitness</title>
+
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+    body{ 
+
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;  
+    background: url("img4.jpg");
+        
+    }
+
+    .left{
+     display: inline-block;
+  /* border: 2px solid red;  */
+     position: absolute;
+     color: red;
+     left: 9px;
+     top: 10px;
+
+    }
+
+    .left img{
+
+     width: 200px;
+
+     filter: invert(100%);
+
+    }
+
+    .left div{
+
+       font-size: 26px;
+       text-align: centre;
+       line-height: 19px;
+
+    }
+    .mid{
+
+      display: block;    
+      width: 60%;
+      margin: 25px auto;
+     /*border: 2px solid blue;*/
+      padding: 25px, auto;
+      height: 60px;
+
+    }
+
+    .right{
+
+      display: inline-block; 
+      position: absolute;
+      color: blue;
+      right: 2px;
+      top: 28px;
+  /*  border: 2px solid yellow; */
+    
+    }
+
+    .navbar{
+
+     dispaly: inline-block;
+
+    }
+
+    .navbar li{
+
+     color: white;
+     display: inline-block;   
+     font-size: 18px;
+
+    }
+    .navbar li a{
+
+     color: red;
+     text-decoration: none;
+     padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active{
+
+     text-decoration: underline;
+     color: grey;
+
+    }
+
+    .btn{
+
+     font-family: 'Baloo Bhai', cursive;
+     margin: 0px 9px;
+     color: red;
+     background-color: black;
+     padding: 4px 14px;
+     border: 2px solid grey;
+     border-radius: 10px;
+     font-size: 10px;
+     cursor: pointer;
+
+   }
+
+   .btn:hover{
+
+     background-color: grey;
+   }
+
+   .container{
+
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    font-size: 10px;
+   }
+/*
+  .form-group input{
+
+    font-family: 'Baloo Bhai', cursive;
+
+    text-align: centre;
+    display: block;
+
+    width: 200px;
+    padding: 31px;
+
+    border: 2px solid black;
+    margin:  auto;
+
+    font-size: 25px;
+    border-radius: 23px;
+    
+  }
+*/
+  .form-group{
+      display: block;
+      width: 80%;
+      margin: auto;
+      font-family: 'Baloo Bhai', cursive;
+      border: 2px solid black;
+      border-radius: 23px;
+      text-align: centre;
+
+}
+
+  .container h1{
+    
+   text-align: centre;
+
+  }
+  
+  .container button{
+   
+    display: block;
+    width: 63%;
+    margin: auto;
+  }
+</style>
+
+<body>
+ 
+
+ <header class="header">
+
+    <!-- Left box for logo -->
+
+      <div class="left">  
+   
+          <img src="gym.png">
+
+     <div> Harry Fitness </div>
+    </div>
+
+   <!-- Left box for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+          <li><a href ="#" class ="active"> Home </a></li>
+          <li><a href ="#"> About us </a> </li>
+          <li><a href ="#"> FItness calculator </a></li>
+          <li><a href ="#"> Contact us </a></li>
+        </ul>
+    </div>
+
+   <!-- Left box for button -->
+    <div class="right">
+     <button class="btn"> CALL US NOW </button>
+     <button class="btn"> EMAIL US </button>
+
+    </div>
+</div>
+</header> 
+ <div class="container">
+
+<h1> Join the best gym of Islamabad now </h1>
+
+<form action= "noaction.php">
+   <div class="formgroup">
+    <input type="text" name="" placeholdier="Enter your Name"> 
+    </div><br>
+
+<div class="formgroup">
+    <input type="text" name="" placeholdier="Enter your Age"> 
+    </div><br>
+
+<div class="formgroup">
+    <input type="text" name="" placeholdier= "Enter your Gender"> 
+    </div><br>
+
+<div class="formgroup">
+    <input type="text" name="" placeholdier= "Enter your Locality"> 
+    </div><br>
+
+<div class="formgroup">
+    <input type="text" name="" placeholdier= "Enter your Phone no"> 
+    </div><br>
+
+<div class="formgroup">
+    <input type="text" name="" placeholdier= "Enter your Email us"> 
+    </div><br>
+
+<button class="btn">Submit</button>
+
+
+
+</form>
+</div>  
+</body>
+
+</html>
